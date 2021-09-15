@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Stock Variables</title>
+<h1>My Stock Variables</h1>
+ <script type="text/javascript">
+  let myVariable = 3195.69;
+  let american = 13.07;
+  let apple = 115.08;
+  let delta = 73.78;
+  let target = 140.89;
+ </script>
+</head>
+<body>
+ <script>
+   document.write("Shein:" + myVariable);
+document.write("<br>");
+   document.write("American Airlines: " + american);
+document.write("<br>");
+   document.write("Apple:" + apple);
+document.write("<br>");
+   document.write("Delta:" + delta);
+document.write("<br>");
+   document.write("Target:" + target);
+ </script>
+</body>
+</html>
